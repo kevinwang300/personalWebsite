@@ -1,7 +1,29 @@
+.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .font-weight-bold {
     font-weight: bold;
 }
 
+.height-25 {
+    height: 25rem;
+}
+
+.margin-top-2 {
+    margin-top: 2rem;
+}
+
 .padding-one {
     padding: 1rem !important;
+}
+
+.rounded {
+    border-radius: 50%;
+}
+
+.text-centered {
+    text-align: center;
 }
