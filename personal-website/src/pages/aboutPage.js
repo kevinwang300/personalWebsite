@@ -6,7 +6,7 @@ class AboutPage extends React.Component {
         return (
             <section className="section">
                 <div className={"container"}>
-                    <img className={"height-25 rounded centered padding-one"} src={Headshot}/>
+                    <img className={"height-25 rounded display-block centered padding-one"} src={Headshot}/>
                     <div className={"padding-one"}>
                         <h4 className="title is-4 text-centered">Hello World! My name is Kevin Wang.</h4>
                         <div className={"content"}>
