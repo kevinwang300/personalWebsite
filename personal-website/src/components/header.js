@@ -7,7 +7,7 @@ class Header extends React.Component {
     render(props) {
         return (
             <div>
-                <nav className="navbar is-dark" role="navigation" aria-label="main navigation">
+                <nav className="navbar is-dark is-fixed-top" role="navigation" aria-label="main navigation">
                     <div className="navbar-brand">
                         <Link to={"/"} className="navbar-item font-weight-bold">
                             Kevin Wang
@@ -27,6 +27,9 @@ class Header extends React.Component {
                             </Link>
                             <Link to={"/projects"} className="navbar-item">
                                 Projects
+                            </Link>
+                            <Link to={"/resume"} className="navbar-item">
+                                Resume
                             </Link>
                             <Link to={"/extracurriculars"} className="navbar-item">
                                 Extracurriculars
