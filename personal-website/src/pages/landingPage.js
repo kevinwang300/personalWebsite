@@ -12,7 +12,6 @@ import ProjectsPage from "./projectsPage";
 
 
 class LandingPage extends React.Component {
-
     render() {
         return (
             <Router>

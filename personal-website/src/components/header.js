@@ -9,7 +9,7 @@ class Header extends React.Component {
             <div>
                 <nav className="navbar is-dark is-fixed-top" role="navigation" aria-label="main navigation">
                     <div className="navbar-brand">
-                        <Link to={"/"} className="navbar-item font-weight-bold">
+                        <Link to={"/"} id={"navbar-brand"} className="navbar-item font-weight-bold">
                             Kevin Wang
                         </Link>
 
@@ -22,19 +22,19 @@ class Header extends React.Component {
                     </div>
                     <div id="navbarBasicExample" className="navbar-menu">
                         <div className="navbar-end">
-                            <Link to={"/experience"} className="navbar-item">
+                            <Link to={"/experience"} id={"navbar-experience"} className="navbar-item">
                                 Experience
                             </Link>
-                            <Link to={"/projects"} className="navbar-item">
+                            <Link to={"/projects"} id={"navbar-projects"} className="navbar-item">
                                 Projects
                             </Link>
-                            <Link to={"/resume"} className="navbar-item">
+                            <Link to={"/resume"} id={"navbar-resume"} className="navbar-item">
                                 Resume
                             </Link>
-                            <Link to={"/extracurriculars"} className="navbar-item">
+                            <Link to={"/extracurriculars"} id={"navbar-extracurriculars"} className="navbar-item">
                                 Extracurriculars
                             </Link>
-                            <Link to={"/contact"} className="navbar-item">
+                            <Link to={"/contact"} id={"navbar-contact"} className="navbar-item">
                                 Contact
                             </Link>
                         </div>

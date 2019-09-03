@@ -1,25 +1,26 @@
 import React from 'react';
-import SabreLogo from '../images/sabreLogo.svg';
-import SplunkLogo from '../images/splunkLogo.png';
 import '../website.css';
-
-var slider;
+import { navbarActive, navbarUnactive } from "../utils/utils";
 
 class ExtraCurricularsPage extends React.Component {
+    componentDidMount() {
+        navbarActive("navbar-extracurriculars")
+    }
+
+    componentWillUnmount() {
+        navbarUnactive("navbar-extracurriculars")
+    }
+
     render() {
         return (
-            <section className={"section"}>
-                <div id="slideshow">
-                    <div>
-                        <img src={SabreLogo} />
-                    </div>
-                    <div>
-                        <img src={SplunkLogo} />
-                    </div>
-                    <div>
-                        Pretty cool eh? This slide is proof the content can be anything.
-                    </div>
-                </div>
+            <section className={"section margin-top-3-25"}>
+                Extra Curriculars
+                <ol>
+                    <li>Artists in Resonance Acapella</li>
+                    <li>Tau Kappa Epsilon Fraternity</li>
+                    <li>Codeology</li>
+                    <li>Sabre Intern Case Competition</li>
+                </ol>
             </section>
         )
     }

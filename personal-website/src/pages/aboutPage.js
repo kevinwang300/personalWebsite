@@ -3,6 +3,7 @@ import Headshot from "../images/headshot.jpg";
 
 // Photo by Jan Senderek on Unsplash
 import SfSkyline from "../images/sfSkyline.jpg";
+import { navbarActive, navbarUnactive } from "../utils/utils";
 
 const styles = {
     backgroundImage: `url(${SfSkyline})`,
@@ -13,6 +14,14 @@ const styles = {
 }
 
 class AboutPage extends React.Component {
+    componentDidMount() {
+        navbarActive("navbar-brand", true)
+    }
+
+    componentWillUnmount() {
+        navbarUnactive("navbar-brand", true)
+    }
+
     render() {
         return (
             <div>

@@ -2,6 +2,10 @@
     background: #363636;
 }
 
+.background-active {
+    background: #292929;
+}
+
 #background-slider {
     height: 100vh;
     width: 100vw;
@@ -51,6 +55,10 @@
 
 .height-25 {
     height: 25rem;
+}
+
+.height-90vh {
+    height: 90vh;
 }
 
 .image-height {

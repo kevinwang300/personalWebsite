@@ -2,8 +2,17 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithubSquare } from '@fortawesome/free-brands-svg-icons';
+import { navbarActive, navbarUnactive } from "../utils/utils";
 
 class ContactPage extends React.Component {
+    componentDidMount() {
+        navbarActive("navbar-contact")
+    }
+
+    componentWillUnmount() {
+        navbarUnactive("navbar-contact")
+    }
+
     handleEmailOnClick() {
         // Create new element
         var el = document.createElement('textarea');
