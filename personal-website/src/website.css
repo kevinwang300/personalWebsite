@@ -1,9 +1,13 @@
+.background-active {
+    background: #292929;
+}
+
 .background-dark {
     background: #363636;
 }
 
-.background-active {
-    background: #292929;
+.background-white {
+    background: #FFF;
 }
 
 #background-slider {
@@ -45,6 +49,14 @@
     flex-grow: 0.5;
 }
 
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
 .font-weight-bold {
     font-weight: bold;
 }
@@ -66,6 +78,14 @@
     height: auto;
 }
 
+.margin-bottom-point-5 {
+    margin-bottom: 0.5rem !important;
+}
+
+.margin-bottom-2 {
+    margin-bottom: 2rem;
+}
+
 .margin-top-2 {
     margin-top: 2rem;
 }
@@ -80,6 +100,10 @@
 
 .opacity-point-eight-five {
     opacity: 0.85;
+}
+
+.overflow-auto {
+    overflow: auto;
 }
 
 .padding-one {
@@ -111,6 +135,10 @@
     bottom: 10px;
 }
 
+.text-justify {
+    text-align: justify;
+}
+
 .text-centered {
     text-align: center;
 }
@@ -129,4 +157,8 @@
 
 .width-55 {
     width: 55rem;
+}
+
+.width-70 {
+    width: 70rem;
 }

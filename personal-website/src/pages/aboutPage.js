@@ -1,17 +1,9 @@
 import React from 'react';
-import Headshot from "../images/headshot.jpg";
+import Headshot from "../images/kevin.JPEG";
 
 // Photo by Jan Senderek on Unsplash
 import SfSkyline from "../images/sfSkyline.jpg";
 import { navbarActive, navbarUnactive } from "../utils/utils";
-
-const styles = {
-    backgroundImage: `url(${SfSkyline})`,
-    backgroundSize: "contain",
-    backgroundAttachment: "fixed",
-    backgroundPosition: "center"
-
-}
 
 class AboutPage extends React.Component {
     componentDidMount() {
