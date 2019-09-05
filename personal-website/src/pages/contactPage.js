@@ -51,7 +51,7 @@ class ContactPage extends React.Component {
                             <div className={"content"}>
                                 <div className={"width-25 display-flex centered"}>
                                     <div className={"display-inline-block flex-grow-point-five"}>
-                                        <a href={"http://www.linkedin.com/in/kevin-wang-ba7b36123"}
+                                        <a href={"http://www.linkedin.com/in/kevinwang300"}
                                            target={"_blank"} className={"color-white hover-gray"}>
                                             <FontAwesomeIcon className={"image-height"} icon={faLinkedin}/>
                                         </a>
