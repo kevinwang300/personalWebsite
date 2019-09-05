@@ -28,11 +28,11 @@ class Header extends React.Component {
                             <Link to={"/projects"} id={"navbar-projects"} className="navbar-item">
                                 Projects
                             </Link>
-                            <Link to={"/resume"} id={"navbar-resume"} className="navbar-item">
-                                Resume
-                            </Link>
                             <Link to={"/extracurriculars"} id={"navbar-extracurriculars"} className="navbar-item">
                                 Extracurriculars
+                            </Link>
+                            <Link to={"/resume"} id={"navbar-resume"} className="navbar-item">
+                                Resume
                             </Link>
                             <Link to={"/contact"} id={"navbar-contact"} className="navbar-item">
                                 Contact

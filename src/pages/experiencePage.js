@@ -82,7 +82,7 @@ class ExperiencePage extends React.Component {
                                     <div id="tesla-modal" className={"modal " + visibleModals["tesla"]}>
                                         <div className="modal-background"></div>
                                         <div className="modal-content">
-                                            <div className={"box"}>
+                                            <div className={"box padding-one-point-five"}>
                                                 <h3 className={"title is-3"}>Tesla</h3>
                                                 <h5 className="title is-5">Software Engineering Intern</h5>
                                                 <h6 className="subtitle is-6">September 2019 - Present</h6>
@@ -107,7 +107,7 @@ class ExperiencePage extends React.Component {
                                     <div id="splunk-modal" className={"modal " + visibleModals["splunk"]}>
                                         <div className="modal-background"></div>
                                         <div className="modal-content">
-                                            <div className={"box"}>
+                                            <div className={"box padding-one-point-five"}>
                                                 <h3 className={"title is-3"}>Splunk</h3>
                                                 <h5 className="title is-5">Software Engineering Intern</h5>
                                                 <h6 className="subtitle is-6">May 2019 - August 2019</h6>
@@ -139,7 +139,7 @@ class ExperiencePage extends React.Component {
                                     <div id="sabre-modal" className={"modal " + visibleModals["sabre"]}>
                                         <div className="modal-background"></div>
                                         <div className="modal-content">
-                                            <div className={"box"}>
+                                            <div className={"box padding-one-point-five"}>
                                                 <h3 className={"title is-3"}>Sabre</h3>
                                                 <h5 className="title is-5">Software Developer Intern</h5>
                                                 <h6 className="subtitle is-6">May 2018 - August 2018</h6>
@@ -169,7 +169,7 @@ class ExperiencePage extends React.Component {
                                     <div id="worldly-modal" className={"modal " + visibleModals["worldly"]}>
                                         <div className="modal-background"></div>
                                         <div className="modal-content">
-                                            <div className={"box"}>
+                                            <div className={"box padding-one-point-five"}>
                                                 <h3 className={"title is-3"}>Worldly</h3>
                                                 <h5 className="title is-5">Software Engineering Intern</h5>
                                                 <h6 className="subtitle is-6">December 2017 - April 2018</h6>
@@ -199,7 +199,7 @@ class ExperiencePage extends React.Component {
                                     <div id="able2shine-modal" className={"modal " + visibleModals["able2shine"]}>
                                         <div className="modal-background"></div>
                                         <div className="modal-content">
-                                            <div className={"box"}>
+                                            <div className={"box padding-one-point-five"}>
                                                 <h3 className={"title is-3"}>Able2Shine</h3>
                                                 <h5 className="title is-5">Software Engineering Intern</h5>
                                                 <h6 className="subtitle is-6">May 2017 - June 2017</h6>
