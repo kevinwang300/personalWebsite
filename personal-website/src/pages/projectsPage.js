@@ -3,6 +3,7 @@ import { navbarActive, navbarUnactive } from "../utils/utils";
 import HomebuddyScreenshot from "../images/homebuddyScreenshot.png";
 import AudioflexicaScreenshot from "../images/audioflexicaScreenshot.png";
 
+// https://i.ytimg.com/vi/QvClYShAeAw/maxresdefault.jpg
 import TitanicScreenshot from "../images/titanicSplitting.jpg";
 
 // https://static.makeuseof.com/wp-content/uploads/2017/07/store-data-freenas-box-670x335.jpg
