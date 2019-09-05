@@ -33,6 +33,10 @@
     color: white;
 }
 
+.hover-gray:hover {
+    color: #CCC;
+}
+
 .display-block {
     display: block;
 }

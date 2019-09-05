@@ -2,7 +2,6 @@ import React from 'react';
 import Resume from "../images/Kevin.Wang.pdf";
 import { navbarActive, navbarUnactive } from "../utils/utils";
 
-
 class ResumePage extends React.Component {
     componentDidMount() {
         navbarActive("navbar-resume")

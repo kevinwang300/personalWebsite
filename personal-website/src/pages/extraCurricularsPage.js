@@ -18,11 +18,13 @@ let airAbout = "Artists in Resonance, casually known on campus as AiR!, is the p
     "Our repertoire includes self-arranged pieces, everything from alternative rock\n" +
     "and hip-hop to traditional fight songs and Top 40 hits.";
 
+// https://en.wikipedia.org/wiki/Tau_Kappa_Epsilon
 let tkeAbout = "Tau Kappa Epsilon, commonly known as TKE or Teke, is a social college\n" +
     "fraternity founded on January 10, 1899, at Illinois Wesleyan University. \n" +
     "The organization has chapters throughout the United States and Canada, making \n" +
     "it an international organization. As of fall 2017 there were 246 active TKE chapters and colonies.";
 
+// https://www.codeology.club/about
 let codeologyAbout = "Codeology is a UC Berkeley student club focused on self-exploration within the tech industry. \n" +
     "By offering hands-on experience through collaborative student projects and professional workshops, we aim to \n" +
     "bring the breadth of opportunities and roles within the tech field to Cal students, as well as help our members \n" +

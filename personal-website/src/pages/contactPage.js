@@ -4,6 +4,9 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithubSquare } from '@fortawesome/free-brands-svg-icons';
 import { navbarActive, navbarUnactive } from "../utils/utils";
 
+// Photo by Nathan Dumlao on Unsplash
+import CoffeeChatBackground from "../images/coffeeChat.jpg";
+
 class ContactPage extends React.Component {
     componentDidMount() {
         navbarActive("navbar-contact")
@@ -33,36 +36,43 @@ class ContactPage extends React.Component {
 
     render() {
         return (
-            <section className="section">
-                <div className={"container margin-top-5"}>
-                    <div className={"padding-one"}>
-                        <h4 className="title is-4 text-centered">Contact Me:</h4>
-                        <div className={"content centered text-centered"}>
-                            Feel free to connect with me, reach out to me, or check out my projects below!
-                        </div>
-                        <div className={"content"}>
-                            <div className={"width-25 display-flex centered"}>
-                                <div className={"display-inline-block flex-grow-point-five"}>
-                                    <a href={"http://www.linkedin.com/in/kevin-wang-ba7b36123"}
-                                       target={"_blank"}>
-                                        <FontAwesomeIcon className={"image-height"} icon={faLinkedin}/>
-                                    </a>
-                                </div>
-                                <div className={"display-inline-block flex-grow-point-five"}>
-                                    <a onClick={this.handleEmailOnClick}>
-                                        <FontAwesomeIcon className={"image-height"} icon={faEnvelope}/>
-                                    </a>
-                                </div>
-                                <div className={"display-inline-block"}>
-                                    <a href={"http://github.com/kevinwang300"} target={"_blank"}>
-                                        <FontAwesomeIcon className={"image-height"} icon={faGithubSquare}/>
-                                    </a>
+            <div>
+                <div id={"background-slider"} className={"position-fixed background-size-cover"}
+                     style={{"background-image": `url(${CoffeeChatBackground})`}}/>
+                <section className="section margin-top-3-25">
+                    <div className={"container margin-top-5"}>
+                        <div className={"padding-one"}>
+                            <h2 className={"title is-2 content centered text-centered color-white"}>
+                                Let's have a coffee chat!
+                            </h2>
+                            <h4 className={"title is-4 content centered text-centered color-white"}>
+                                Feel free to connect with me, reach out to me, or check out my projects below.
+                            </h4>
+                            <div className={"content"}>
+                                <div className={"width-25 display-flex centered"}>
+                                    <div className={"display-inline-block flex-grow-point-five"}>
+                                        <a href={"http://www.linkedin.com/in/kevin-wang-ba7b36123"}
+                                           target={"_blank"} className={"color-white hover-gray"}>
+                                            <FontAwesomeIcon className={"image-height"} icon={faLinkedin}/>
+                                        </a>
+                                    </div>
+                                    <div className={"display-inline-block flex-grow-point-five"}>
+                                        <a onClick={this.handleEmailOnClick} className={"color-white hover-gray"}>
+                                            <FontAwesomeIcon className={"image-height"} icon={faEnvelope}/>
+                                        </a>
+                                    </div>
+                                    <div className={"display-inline-block"}>
+                                        <a href={"http://github.com/kevinwang300"} target={"_blank"}
+                                           className={"color-white hover-gray"}>
+                                            <FontAwesomeIcon className={"image-height"} icon={faGithubSquare}/>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
+                </section>
+            </div>
         )
     }
 }
